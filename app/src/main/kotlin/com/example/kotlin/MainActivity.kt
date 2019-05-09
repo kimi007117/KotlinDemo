@@ -1,7 +1,8 @@
-package com.example.kotlindemo
+package com.example.kotlin
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.kotlindemo.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +14,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getText(): String {
-        return "哈哈哈"
+        return "哈哈哈 呵呵呵"
     }
 }
